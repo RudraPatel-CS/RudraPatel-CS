@@ -107,10 +107,15 @@ A single AI editor runs an entire wire service: give it a persona once and it **
 
 <br />
 
+<!-- TryHackMe's own badge image (tryhackme-badges.s3.amazonaws.com) is dead —
+     the S3 bucket 403s and the site blocks GitHub's image proxy. Static badges instead. -->
+<p align="center">
+  <a href="https://tryhackme.com/p/CyberPayl0ad"><img src="https://img.shields.io/badge/TryHackMe-CyberPayl0ad-ff3b5c?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe profile: CyberPayl0ad" /></a>
+  <img src="https://img.shields.io/badge/Golden%20League-Rank%20%231-f5b301?style=for-the-badge&labelColor=0e141b" alt="Golden League — Rank #1" />
+  <img src="https://img.shields.io/badge/Rooms%20cleared-5-2bd96a?style=for-the-badge&labelColor=0e141b" alt="Rooms cleared: 5" />
+</p>
+
 <div align="center">
-  <a href="https://tryhackme.com/p/CyberPayl0ad">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/CyberPayl0ad.png" alt="TryHackMe badge" />
-  </a>
   <p><sub>🥇 <b>Golden League — Rank #1</b> · Rooms cleared: Blue (EternalBlue MS17-010) · Moniker Link (CVE-2024-21413) · LLMborghini (prompt injection) · Metasploit · AI/ML Security Threats</sub></p>
 </div>
 
@@ -118,17 +123,21 @@ A single AI editor runs an entire wire service: give it a persona once and it **
 
 ## 📊 Field stats
 
+<!-- github-readme-stats.vercel.app is DEPLOYMENT_PAUSED (503) — using
+     github-profile-summary-cards instead. See SETUP.md to switch back. -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RudraPatel-CS&show_icons=true&hide_border=true&bg_color=0b0f14&title_color=2bd96a&icon_color=ff3b5c&text_color=e6edf3&ring_color=2bd96a" height="170" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RudraPatel-CS&layout=compact&hide_border=true&bg_color=0b0f14&title_color=2bd96a&text_color=e6edf3" height="170" alt="Top languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RudraPatel-CS&theme=gotham" height="200" alt="GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=RudraPatel-CS&theme=gotham" height="200" alt="Top languages" />
 </div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=RudraPatel-CS&hide_border=true&background=0b0f14&ring=2bd96a&fire=ff3b5c&currStreakLabel=2bd96a&sideLabels=e6edf3&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b98a5" alt="streak" />
 </div>
 
+<!-- github-profile-trophy.vercel.app is disabled (402 Payment required) —
+     profile-trophy.vercel.app is a working mirror of the same project. -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RudraPatel-CS&theme=matrix&no-frame=true&row=1&column=7&margin-w=8" alt="trophies" />
+  <img src="https://profile-trophy.vercel.app/?username=RudraPatel-CS&theme=matrix&no-frame=true&row=1&column=7&margin-w=8" alt="trophies" />
 </div>
 
 ## 🐍 The snake eats my contributions

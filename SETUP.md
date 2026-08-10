@@ -49,6 +49,22 @@ git push -u origin main
 - [ ] **Pin repos**: on the profile page, pin the best repos (DhanRakshak, TAAR, CodeAlpha tasks).
 - [ ] **Skill icons**: edit the `skillicons.dev` URL if you want to add/remove languages.
 
+## If a stats widget goes blank
+
+Every dynamic widget is hosted by a free third-party service, so any of them can go
+down without warning. Current state (checked 2026-08-10) and what to do:
+
+| Widget | Host in use | Note |
+|--------|-------------|------|
+| Stats + Top languages | `github-profile-summary-cards.vercel.app` | ✅ working. The original `github-readme-stats.vercel.app` is **paused by its maintainer** (503) — if it comes back, you can switch to it for a closer palette match, since it accepts custom hex colors and this one only accepts a `theme=` name. |
+| Streak | `streak-stats.demolab.com` | ✅ working, custom colors. |
+| Trophies | `profile-trophy.vercel.app` | ✅ working **mirror**. The official `github-profile-trophy.vercel.app` is disabled (402 Payment required). If the mirror dies too, `github-trophies.vercel.app` is a second mirror with the same URL parameters. |
+| TryHackMe badge | `img.shields.io` (static) | The live THM badge **cannot work anymore**: the S3 bucket returns 403 and TryHackMe now sits behind bot protection that blocks GitHub's image proxy. The rank/room count in those badges is hardcoded — **edit the numbers by hand** as they change. |
+| Snake | your own `output` branch | ✅ self-hosted by the workflow, no third party. |
+
+To diagnose a blank image, just `curl -I` the URL — anything other than `HTTP 200`
+with an `image/svg+xml` content type means the host is down, not your README.
+
 ## How the animations work (no JavaScript!)
 
 GitHub READMEs strip all JS — so everything here is **hand-coded animated SVG** (SMIL animations), which GitHub renders natively:
